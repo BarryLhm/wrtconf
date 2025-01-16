@@ -28,12 +28,3 @@ config interface 'wan'
 	option password '911110'
 	option ipv6 'auto'
 
-config interface 'docker'
-	option device 'docker0'
-	option proto 'none'
-	option auto '0'
-
-config device
-	option type 'bridge'
-	option name 'docker0'
-

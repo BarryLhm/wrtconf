@@ -122,10 +122,3 @@ config rule
 	option proto 'udp'
 	option target 'ACCEPT'
 
-config zone 'docker'
-	option input 'ACCEPT'
-	option output 'ACCEPT'
-	option forward 'ACCEPT'
-	option name 'docker'
-	list network 'docker'
-

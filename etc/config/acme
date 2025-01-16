@@ -1,0 +1,13 @@
+
+config acme
+	option account_email 'Lhm13144572810@outlook.com'
+	option debug '0'
+
+config cert 'letsencrypt'
+	option enabled '1'
+	option use_staging '0'
+	option keylength '2048'
+	option update_uhttpd '1'
+	option validation_method 'standalone'
+	list domains 'barrylhm.dynv6.net'
+
