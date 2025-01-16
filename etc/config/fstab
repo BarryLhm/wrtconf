@@ -33,7 +33,7 @@ config mount
 	option enabled '0'
 
 config mount
-	option enabled '0'
+	option enabled '1'
 	option uuid '4ae168c6-a2c8-40ca-9079-dbd1b851db6d'
 	option fstype 'btrfs'
 	option options 'noatime,subvol=data'

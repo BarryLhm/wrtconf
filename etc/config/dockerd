@@ -1,9 +1,10 @@
 
 config globals 'globals'
-	option data_root '/opt/docker/'
+	option data_root '/data/docker/'
 	option log_level 'warn'
 	option iptables '1'
 	option auto_start '1'
+	list registry_mirrors 'https://hub-mirror.c.163.com'
 
 config proxies 'proxies'
 
